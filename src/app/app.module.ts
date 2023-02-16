@@ -1,3 +1,4 @@
+import { HomeModule } from './elements/pages/home/home.module';
 import { HeaderModule } from './elements/core/header/header.module';
 import { FooterModule } from './elements/core/footer/footer.module';
 import { ElementsModule } from './elements/elements.module';
@@ -15,7 +16,6 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ElementsModule,
     FooterModule,
     HeaderModule
   ],
