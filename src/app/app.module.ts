@@ -1,3 +1,5 @@
+import { HeaderModule } from './elements/core/header/header.module';
+import { FooterModule } from './elements/core/footer/footer.module';
 import { ElementsModule } from './elements/elements.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -13,7 +15,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ElementsModule
+    ElementsModule,
+    FooterModule,
+    HeaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
