@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeInterface } from 'src/app/model/home-interface';
 
 @Component({
   selector: 'app-footer',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+
+
+constructor() {
+  
+  
+}
 }
