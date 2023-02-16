@@ -1,28 +1,23 @@
+import { HeaderModule } from './elements/core/header/header.module';
+import { FooterModule } from './elements/core/footer/footer.module';
+import { ElementsModule } from './elements/elements.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { ProductsComponent } from './products/products.component';
-import { ManagementComponent } from './management/management.component';
-import { ModulsComponent } from './moduls/moduls.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    HomeComponent,
-    ProductsComponent,
-    ManagementComponent,
-    ModulsComponent
+    AppComponent, 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ElementsModule,
+    FooterModule,
+    HeaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
