@@ -1,3 +1,4 @@
+import { ReactiveFormsModule } from '@angular/forms';
 import { ManagementRoutingModule } from './management-routing.module';
 import { ManagementComponent } from './management.component';
 import { NgModule } from '@angular/core';
@@ -11,7 +12,8 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     CommonModule,
-    ManagementRoutingModule
+    ManagementRoutingModule,
+    ReactiveFormsModule
   ],
   exports: [
     ManagementComponent
