@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HomeInterface } from 'src/app/model/home-interface';
+
 
 @Component({
   selector: 'app-footer',
@@ -8,10 +8,10 @@ import { HomeInterface } from 'src/app/model/home-interface';
 })
 export class FooterComponent {
 
+  getCurrentYear(){
+    return new Date().getFullYear();
+  }
+
+ }
 
 
-constructor() {
-  
-  
-}
-}
