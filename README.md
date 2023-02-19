@@ -2,9 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
+
+## Development DB server
+
+Para levantar el back:
+Entrar a la carpeta back desde el terminal
+Correr el comando `json-server --watch db.json`
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Con el backend levantado:
+Entrar a la carpeta proyectAngular desde el terminal
+Correr el comando `ng serve -o`
+
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
