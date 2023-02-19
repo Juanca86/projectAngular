@@ -1,13 +1,8 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { SubscriptionLoggable } from 'rxjs/internal/testing/SubscriptionLoggable';
+import { gestionFormulario } from 'src/app/model/interfaces';
 
-interface gestionFormulario {
-  name: string;
-  price: number;
-  description: string;
-  imgRout: string;
-  opinion: string;
-}
 
 
 @Component({
@@ -23,7 +18,7 @@ export class ManagementComponent {
   imgRout = '';
   opinion = '';
 
-  // public submitted: boolean= false;
+  public submitted: boolean= false;
 
   constructor (private formBuilder: FormBuilder){
     this.managementForm = this.formBuilder.group({
@@ -34,17 +29,19 @@ export class ManagementComponent {
       opinionFormulario: ['']
     });
   };
-  // public onSubmit(){
-  //   this.submitted = true;
-  //   if (this.managementForm.valid) {
-  //     let nuevoItem: gestionFormulario  {
-  //       name = this.managementForm.get('name')?.value, 
-  //       price = this.managementForm.get('price')?.value,
-  //       description = this.managementForm.get('description')?.value,
-  //       imgRout = this.managementForm.get('imgRout')?.value, 
-  //       opinion = this.managementForm.get('opinion')?.value
-  //     }
-      
-  //   }
-  // }
+  public onSubmit(){
+    this.submitted = true;
+    if (this.managementForm.valid) {
+      const nuevoItem: gestionFormulario = {
+        name: this.managementForm.get('name')?.value, 
+        price: this.managementForm.get('price')?.value,
+        description: this.managementForm.get('description')?.value,
+        imgRout: this.managementForm.get('imgRout')?.value, 
+        opinion: this.managementForm.get('opinion')?.value
+      };
+      console.log(nuevoItem)
+      this.managementForm.reset()
+      this.submitted = false
+    };
+  };
 };
