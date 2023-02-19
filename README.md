@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development DB server
 
 Para levantar el back:
-Entrar a la carpeta back desde el terminal
+Entrar a la carpeta PROJECTBACK/back desde el terminal
 Correr el comando `json-server --watch db.json`
 
 ## Development server
