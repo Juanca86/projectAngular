@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development DB server
 
 Para levantar el back:
+Entrar a la carpeta PROJECTBACK desde el terminal
+correr el comando `npm i -g json-server`
 Entrar a la carpeta PROJECTBACK/back desde el terminal
 Correr el comando `json-server --watch db.json`
 
@@ -13,6 +15,7 @@ Correr el comando `json-server --watch db.json`
 
 Con el backend levantado:
 Entrar a la carpeta proyectAngular desde el terminal
+Correr comando `npm i`
 Correr el comando `ng serve -o`
 
 Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
