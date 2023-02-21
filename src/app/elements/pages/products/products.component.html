@@ -16,21 +16,22 @@
     <div *ngFor="let product of filtrar">
       <img src="{{ product.image }}" alt="{{ product.name }}" />
       <h6>{{ product.description }}</h6>
-
+=========
     <button (click)="cambiarVista()">{{ mensaje }}</button> 
   <!-- <button (click) ="cambiarVista()" > cuadrado {{cuadricula}} </button> -->
-
+</nav>
 
 <h2 class="titulo">Listado de Productos (8)</h2>
   <div class="container-products">
     <div class="column" *ngFor="let product of productsList">
       <img src="{{ product.image }}" alt="{{ product.name }}" />
       <h4>{{ product.description }}</h4>
+>>>>>>>>> Temporary merge branch 2
       <h4>{{ product.price }}</h4>
       <h4>{{ product.stars }}</h4>
     </div>
   </div>
-
+<<<<<<<<< Temporary merge branch 1
 
   <div *ngIf="cuadricula" class="cuadricula">
     <div *ngFor="let product of filtrar">
@@ -41,4 +42,5 @@
     </div>
   </div>
 </ng-container>
-
+=========
+>>>>>>>>> Temporary merge branch 2

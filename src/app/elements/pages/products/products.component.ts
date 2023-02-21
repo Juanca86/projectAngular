@@ -9,9 +9,7 @@ import { Items } from 'src/app/model/interfaces';
 })
 export class ProductsComponent {
   productsList: Items[] = [];
-
   filtrar: Items[] = [];
-
   userList: boolean = false;
   cuadricula: boolean = true;
   mensaje: string = 'Lista';
