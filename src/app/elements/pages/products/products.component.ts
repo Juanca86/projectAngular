@@ -19,20 +19,20 @@ export class ProductsComponent {
     if (this.userList) {
       this.userList = false;
       this.cuadricula = true;
-      this.mensaje = 'Lista';
+      this.mensaje = 'Cuadricula';
     } else {
       this.userList = true;
       this.cuadricula= false;
-      this.mensaje = 'Cuadricula';
+      this.mensaje = 'Lista';
     }
     if (this.cuadricula) {
       this.cuadricula = true;
       this.userList = false
-      this.mensaje = 'Cuadricula';
+      this.mensaje = 'Lista';
     } else {
       this.cuadricula = false;
       this.userList = true;
-      this.mensaje = 'Lista';
+      this.mensaje = 'Cuadricula';
     }
   }
 
