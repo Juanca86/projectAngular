@@ -2,67 +2,67 @@
   "products" :[
     {
       "id": 1,
-      "name": "Zapatos Vintage",
-      "price": 49.99 ,
-      "description": "Bellos zapatos antiguos para Hipsters.",
-      "stars": 4.5 ,
-      "image": "https://i.ibb.co/4j85tBM/shoes.jpg"
+      "name": "Iron Man",
+      "price": 70.99 ,
+      "description": "Iron Man Funko Pop",
+      "stars": 5 ,
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/18/47/57/5719832/1540-1.jpg"
     },
     {
       "id": 2,
-      "name": "Máquina de escribir",
+      "name": "Capitán América",
       "price": 109.99,
-      "description": "Bonita máquina de escribir antigua.",
-      "stars": 4.2,
-      "image": "https://i.ibb.co/84zfbz0/maquina.jpg"
+      "description": "Capitán America Funko Pop.",
+      "stars": 4.8,
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/e6/2c/57/5713126/1540-1.jpg"
     },
     {
       "id": 3,
-      "name": "Lapiceros de colores",
-      "price": 1.99,
-      "description": "Estupendos bolígrafos de colores.",
-      "stars": 1,
-      "image": "https://i.ibb.co/s5m7HKt/lapiceros.jpg"
+      "name": "Spiderman",
+      "price": 45.99,
+      "description": "Spiderman Funko Pop.",
+      "stars": 4.5,
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/1b/4e/58/5787163/1540-1.jpg"
     },
     {
       "id": 4,
-      "name": "Pantalón",
-      "price": 49.99,
-      "description": "Pantalón de moto para evitar heridas.",
+      "name": "Viuda Negra",
+      "price": 79.99,
+      "description": "Viuda Negra.",
       "stars": 4,
-      "image": "https://i.ibb.co/6nnVkNY/pantalon.jpg"
+      "image": "https://m.media-amazon.com/images/I/71BQtorIR1L.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
       "id": 5,
-      "name": "Cuaderno de colores",
-      "price": 7.25,
-      "description": "Excelente cuaderno para que apuntes tus clases.",
-      "stars": 3.5,
-      "image": "https://i.ibb.co/Jr3FHVd/cuaderno.jpg"
+      "name": "Ojo de Halcón",
+      "price": 35.25,
+      "description": "Ojo de Halcón Funko Pop.",
+      "stars": 3.9,
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/99/f3/4e/5174169/1540-1.jpg"
     },
     {
       "id": 6,
-      "name": "Jarabe marca blanca",
-      "price": 12.5,
-      "description": "No cura el COVID, pero está muy rico.",
-      "stars": 1,
-      "image": "https://i.ibb.co/mhgHWnf/jarabe.jpg"
+      "name": "Thor",
+      "price": 55.5,
+      "description": "Thor Funko pop.",
+      "stars": 4.8,
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/12/f7/10/1111826/1507-1/tsp20151202164404/Figura-Funko-Los-Vengadores-Thor.jpg"
     },
     {
       "id": 7,
-      "name": "Maceta de diseño",
-      "price": 9.99,
-      "description": "Maceta de diseño a precio económico.",
-      "stars": 5,
-      "image": "https://i.ibb.co/MZSrV6q/maceta.jpg"
+      "name": "Hulk",
+      "price": 13.99,
+      "description": "Hulk Funko Pop.",
+      "stars": 3.8,
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/a2/f3/4e/5174178/1540-1.jpg"
     },
     {
       "id": 8,
-      "name": "Gato Persa",
-      "price": 100,
-      "description": "No sé si es legal vender animales online...",
-      "stars": 3,
-      "image": "https://i.ibb.co/1zPPBjx/gato.jpg"
+      "name": "Doctor Stranger",
+      "price": 15.99,
+      "description": "Doctor Stranger Funko Pop",
+      "stars": 3.7,
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/57/4a/79/7948887/1540-1.jpg"
     }
   ]
 }

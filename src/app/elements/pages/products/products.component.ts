@@ -9,6 +9,34 @@ import { Items } from 'src/app/model/interfaces';
 })
 export class ProductsComponent {
   productsList: Items[] = [];
+  filtrar: any[] = [];
+  userList: boolean = false;
+  cuadricula: boolean = true;
+  mensaje: string = 'Lista';
+
+  cambiarVista() {
+    if (this.userList) {
+      this.userList = false;
+      this.mensaje = 'Lista';
+    } else {
+      this.userList = true;
+      this.mensaje = 'Cuadricula';
+    }
+    if (this.cuadricula) {
+      this.cuadricula = true;
+      this.mensaje = 'Cuadricula';
+    } else {
+      this.cuadricula = false;
+      this.mensaje = 'Lista';
+    }
+  }
+
+  //funcion para el buscador
+  webSeeker(filtro: any) {
+    this.filtrar = this.productsList.filter((product) =>
+      product.name.toLocaleLowerCase().includes(filtro.toLocaleLowerCase())
+    );
+  }
 
   constructor(private shopeameService: ShopeameService) {}
 

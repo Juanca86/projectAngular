@@ -1,10 +1,14 @@
-<div class="products">
+<nav>
+    <button (click)="cambiarVista()">{{ mensaje }}</button> 
+  <!-- <button (click) ="cambiarVista()" > cuadrado {{cuadricula}} </button> -->
+</nav>
 
-    <div *ngFor="let product of productsList">
-    <img src="{{product.image}}" alt="{{product.name}}">
-    <h6>{{product.description}}</h6>
-    <h4>{{product.price}}</h4>
-    <h4>{{product.stars}}</h4>
-
-
-</div>
+<h2 class="titulo">Listado de Productos (8)</h2>
+  <div class="container-products">
+    <div class="column" *ngFor="let product of productsList">
+      <img src="{{ product.image }}" alt="{{ product.name }}" />
+      <h4>{{ product.description }}</h4>
+      <h4>{{ product.price }}</h4>
+      <h4>{{ product.stars }}</h4>
+    </div>
+  </div>
