@@ -3,9 +3,15 @@
     {
       "id": 1,
       "name": "Iron Man",
+<<<<<<< HEAD
       "price": 70.99,
       "description": "Iron Man Funko Pop",
       "stars": 5,
+=======
+      "price": 70.99 ,
+      "description": "Iron Man Funko Pop",
+      "stars": 5 ,
+>>>>>>> 1ecf95e7a9cb71ae22ce4a431090962b3bf0445f
       "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/18/47/57/5719832/1540-1.jpg"
     },
     {
