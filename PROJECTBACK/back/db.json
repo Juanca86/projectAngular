@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Spiderman",
       "price": 45.99,
-      "description": "Spiderman Funko Pop.",
+      "description": "Spiderman Funko Pop",
       "stars": 4.5,
       "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/1b/4e/58/5787163/1540-1.jpg"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Viuda Negra",
       "price": 79.99,
-      "description": "Viuda Negra.",
+      "description": "Viuda Negra Funko Pop",
       "stars": 4,
       "image": "https://m.media-amazon.com/images/I/71BQtorIR1L.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "name": "Ojo de Halcón",
       "price": 35.25,
-      "description": "Ojo de Halcón Funko Pop.",
+      "description": "Ojo de Halcón Funko Pop",
       "stars": 3.9,
       "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/99/f3/4e/5174169/1540-1.jpg"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "name": "Thor",
       "price": 55.5,
-      "description": "Thor Funko pop.",
+      "description": "Thor Funko pop",
       "stars": 4.8,
       "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/12/f7/10/1111826/1507-1/tsp20151202164404/Figura-Funko-Los-Vengadores-Thor.jpg"
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "name": "Hulk",
       "price": 13.99,
-      "description": "Hulk Funko Pop.",
+      "description": "Hulk Funko Pop",
       "stars": 3.8,
       "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/a2/f3/4e/5174178/1540-1.jpg"
     },

@@ -1,16 +1,15 @@
 <nav>
   <button (click)="cambiarVista()">{{ mensaje }}</button>
   <!-- <button (click) ="cambiarVista()" > cuadrado {{cuadricula}} </button> -->
-</nav>
+
 
   <!-- //añado buscador -->
   <input
     type="text"
     #filtro
     (input)="webSeeker(filtro.value)"
-    placeholder="Buscador"
-  />
-
+    placeholder="Buscador"/>
+  </nav>
   <!-- <div *ngFor="let product of filtrar">
     <img src="{{ product.image }}" alt="{{ product.name }}" />
     <h6>{{ product.description }}</h6> -->
@@ -22,9 +21,9 @@
   <div *ngIf="userList" class=" column">
     <div *ngFor="let product of filtrar">
       <img src="{{ product.image }}" alt="{{ product.name }}" />
-      <h6>{{ product.description }}</h6>
-      <h4>{{ product.price }}</h4>
-      <h4>{{ product.stars }}</h4>
+      <h4>{{ product.description }}</h4>
+      <h5>{{ product.price }}</h5>
+      <h5>{{ product.stars }}</h5>
     </div>
   </div>
 
@@ -32,9 +31,9 @@
   <div *ngIf="cuadricula" class="cuadricula">
     <div *ngFor="let product of filtrar">
       <img src="{{ product.image }}" alt="{{ product.name }}" />
-      <h6>{{ product.description }}</h6>
-      <h4>{{ product.price }}</h4>
-      <h4>{{ product.stars }}</h4>
+      <h4>{{ product.description }}</h4>
+      <h5>{{ product.price }}</h5>
+      <h5>{{ product.stars }}</h5>
     </div>
   </div>
   </div>
