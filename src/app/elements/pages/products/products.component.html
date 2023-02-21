@@ -1,10 +1,32 @@
-<div class="products">
+<nav>
+  <button (click)="cambiarVista()">{{ mensaje }}</button>
+  <!-- <button (click) ="cambiarVista()" > cuadrado {{cuadricula}} </button> -->
+</nav>
 
-    <div *ngFor="let product of productsList">
-    <img src="{{product.image}}" alt="{{product.name}}">
-    <h6>{{product.description}}</h6>
-    <h4>{{product.price}}</h4>
-    <h4>{{product.stars}}</h4>
+<ng-container>
+  <!-- //añado buscador -->
+  <input
+    type="text"
+    #filtro
+    (input)="webSeeker(filtro.value)"
+    placeholder="Buscador"
+  />
 
+  <div *ngIf="userList" class="products-list">
+    <div *ngFor="let product of filtrar">
+      <img src="{{ product.image }}" alt="{{ product.name }}" />
+      <h6>{{ product.description }}</h6>
+      <h4>{{ product.price }}</h4>
+      <h4>{{ product.stars }}</h4>
+    </div>
+  </div>
 
-</div>
+  <div *ngIf="cuadricula" class="cuadricula">
+    <div *ngFor="let product of filtrar">
+      <img src="{{ product.image }}" alt="{{ product.name }}" />
+      <h6>{{ product.description }}</h6>
+      <h4>{{ product.price }}</h4>
+      <h4>{{ product.stars }}</h4>
+    </div>
+  </div>
+</ng-container>

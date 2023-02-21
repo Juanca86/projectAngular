@@ -1,13 +1,23 @@
+
+
 img{
     height: 150px;
     width: 150px;
 }
 
-.products{
+.products-list{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: 20px;
     margin-top: 20px;
+    background-color: aquamarine;
 
 }
+
+// .cuadricula {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-left: 20px;
+//     margin-top: 20px;
+// }
