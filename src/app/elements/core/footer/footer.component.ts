@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
-}
+  getCurrentYear(){
+    return new Date().getFullYear();
+  }
+
+ }
+
+

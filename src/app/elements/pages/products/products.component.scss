@@ -1,0 +1,24 @@
+.titulo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.container-products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+.column{
+    flex: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}

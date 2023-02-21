@@ -1,1 +1,32 @@
-<p>management works!</p>
+<h2>Gestión de Productos</h2>
+
+<form novalidate (ngSubmit)="onSubmit()" [formGroup]="managementForm">
+    
+    <fieldset>
+        <label >Nombre del producto: </label>
+        <input type="text" id="nameFormulario" placeholder="Por ej. pantalla" formControlName="nameFormulario">
+
+    </fieldset>
+    <fieldset>
+        <label >Precio: </label>
+        <input type="number" id="priceFormulario" placeholder="Por ej. 10,50" formControlName="priceFormulario">
+
+    </fieldset>
+    <fieldset>
+        <label >Descripción: </label>
+        <input type="text" id="descriptionFormulario" placeholder="Por ej. Lo más vendido" formControlName="descriptionFormulario">
+
+    </fieldset>
+    <fieldset>
+        <label >Url: </label>
+        <input type="text" id="imgRoutFormulario" placeholder="Por ej. http//carpetaazul/img.jpg" formControlName="imgRoutFormulario">
+
+    </fieldset>
+    <fieldset>
+        <label >Opiniones: </label>
+        <input type="text" id="opinionFormulario" placeholder="Por ej. 4.5" formControlName="opinionFormulario">
+
+    </fieldset>
+    <button type="submit" [disabled]="!managementForm.valid"> Agregar </button>
+
+</form>
