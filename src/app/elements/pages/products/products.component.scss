@@ -1,46 +1,38 @@
-
 .titulo {
-    margin-left: 50px;
-    margin-top: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
-.column{
-    flex: 20%;
-    padding-left: 2%;
-    padding-right: 2%;
-   
-
+.column {
+  flex: 20%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-img{
-    height: 200px;
-    width: 200px;
-    margin: 50px 50px 0px 50px;
+img {
+  height: 200px;
+  width: 200px;
+  margin: 50px 50px 0px 50px;
 }
 
-h4{
-    margin: 10px 0px 10px 70px;
-    
+h4 {
+  margin: 10px 0px 10px 70px;
 }
 
-h5{
-    margin: 10px 0px 10px 70px;
-    
+h5 {
+  margin: 10px 0px 10px 70px;
 }
 
 .cuadricula {
-   display:flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   padding-left: 2%;
-   padding-right: 2%;
-   
-   
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }

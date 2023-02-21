@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { SubscriptionLoggable } from 'rxjs/internal/testing/SubscriptionLoggable';
 import { gestionFormulario } from 'src/app/model/interfaces';
 
 @Component({

@@ -1,29 +1,28 @@
 div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-nav{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255,201,112);
-    padding: 25px
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 201, 112);
+  padding: 25px;
 }
-ul{
-    margin:0;
+ul {
+  margin: 0;
 }
-li{
-    text-decoration: none;
-    margin: 5px;
-    display: inline-block;
+li {
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
 }
-button{
-    border: 0;
-    background-color:rgb(255,201,112) ;
-
+button {
+  border: 0;
+  background-color: rgb(255, 201, 112);
 }
 li :hover {
-    color: black;
-    background-color: rgb(249,213,155);
-    // text-decoration: underline blue;
-    font-size: 15px;
+  color: black;
+  background-color: rgb(249, 213, 155);
+  // text-decoration: underline blue;
+  font-size: 15px;
 }

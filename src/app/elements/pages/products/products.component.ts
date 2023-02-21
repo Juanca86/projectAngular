@@ -22,12 +22,12 @@ export class ProductsComponent {
       this.mensaje = 'Cuadricula';
     } else {
       this.userList = true;
-      this.cuadricula= false;
+      this.cuadricula = false;
       this.mensaje = 'Lista';
     }
     if (this.cuadricula) {
       this.cuadricula = true;
-      this.userList = false
+      this.userList = false;
       this.mensaje = 'Lista';
     } else {
       this.cuadricula = false;
